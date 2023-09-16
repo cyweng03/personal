@@ -5,7 +5,7 @@ const Project = ({ img, paragraphContent, link }) => {
   const [showContent, setShowContent] = useState(false);
 
   return (
-    <div className="w-[55%] bg-slate-300 rounded-3xl p-6 hover:bg-gray-600 cursor-pointer"
+    <div className="w-[55%] bg-slate-300 rounded-3xl p-6 hover:bg-gray-600 cursor-pointer transition-all"
       onMouseOver={() => setShowContent(true)}
       onMouseLeave={() => setShowContent(false)}
     >

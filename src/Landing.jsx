@@ -23,13 +23,13 @@ const Landing = () => {
           <div className="ml-[10%] py-[20%]">
             <div className="flex flex-row items-end mb-[5%]">
               <div className="text-5xl font-semibold ">
-                Hey, I'm <div className = "text-7xl">Chu-Yin Weng</div>
+                Hello, I'm <div className = "text-7xl">Chu-Yin Weng</div>
               </div>
-              <div className="ml-5 font-semibold text-2xl"> aka Dora</div>
+              <div className="ml-5 font-semibold text-3xl"> aka Dora</div>
             </div>
-            <h1 className="font-semibold">
-              Student at Cornell University
-            </h1>
+            <div className="font-semibold text-2xl">
+            Full-stack developer with a passion for building innovative solutions.
+            </div>
             
           </div>
         </div>

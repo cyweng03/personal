@@ -5,7 +5,7 @@ const Current = ({ img, paragraphContent}) => {
 
   return (
     <div
-      className="bg-slate-300 rounded-3xl p-[5%] h-[45%] flex hover:bg-gray-600"
+      className="bg-slate-300 rounded-3xl p-[5%] h-[45%] flex hover:bg-gray-600 transition-all"
       onMouseOver={() => setShowContent(true)}
       onMouseLeave={() => setShowContent(false)}
     >
