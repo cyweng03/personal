@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-const Project = ({ img, paragraphContent, link }) => {
+const Project = ({ img, role, time, paragraphContent, link }) => {
   const [showContent, setShowContent] = useState(false);
 
   return (
@@ -12,9 +12,9 @@ const Project = ({ img, paragraphContent, link }) => {
       <div className="flex flex-row items-end">
         <div className="font-semibold text-2xl text-black mr-[2%]">
           {" "}
-          Intern{" "}
+          {role}{" "}
         </div>
-        <div className="text-base text-black mb-[2px]"> June - Aug 2021</div>
+        <div className="text-base text-black mb-[2px]"> {time}</div>
       </div>
       <div className="w-full flex items-center justify-end h-[90%]">
         {showContent ? (
