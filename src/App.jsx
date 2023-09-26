@@ -15,7 +15,7 @@ function App() {
   return (
     <>
     <Router>
-    <Routes>
+      <Routes>
         <Route path="/" element={<Landing />} />
         <Route path="/Tutoring" element={<Tutoring />} />
       </Routes>

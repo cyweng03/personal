@@ -11,14 +11,12 @@ import Top from './components/Top'
 const Landing = () => {
   return (
     <>
-    <div> 
-      <Navbar />
-    </div>
     <div>
       <Top />
     </div>
     <div>
       <section id="Home">
+      <Navbar />
         <div className="h-screen">
           <div className="ml-[10%] py-[20%]">
             <div className="flex flex-row items-end mb-[5%]">
