@@ -18,7 +18,7 @@ const Project = ({ img, role, time, paragraphContent, link }) => {
       </div>
       <div className="w-full flex items-center justify-end h-[90%]">
         {showContent ? (
-          <div>
+          <div className="h-40 overflow-auto">
             <div className="text-black">{paragraphContent}</div>
             {link && (
               <a

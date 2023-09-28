@@ -59,6 +59,7 @@ const Landing = () => {
               machines."
                 />
                 <Project
+                  className="overflow-y-auto"
                   img={Research}
                   time="Jan - April 2021"
                   role="Researcher"

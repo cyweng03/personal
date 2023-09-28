@@ -16,12 +16,12 @@ function Navbar() {
       </a>
       <ul className="nav-menu flex flex-row space-x-4">
         <li>
-          <a onClick={() => scrollTo("About")} className="text-black">
+          <a onClick={() => scrollTo("About")} className="">
             About
           </a>
         </li>
         <li>
-          <a onClick={() => scrollTo("Experiences")} className="text-black">
+          <a onClick={() => scrollTo("Experiences")} className="">
             Experiences & Projects
           </a>
         </li>
