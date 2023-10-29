@@ -1,3 +1,3 @@
-# Peronsal wesite
+# Peronsal website
 
-I is dora
+Welcome to my personal website!
