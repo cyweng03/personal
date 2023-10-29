@@ -7,6 +7,7 @@ import Research from "./img/ResearchLogo.png";
 import Project from "./components/Project";
 import Current from "./components/Current";
 import Top from "./components/Top";
+import glimpse from "./img/Glimpse.png";
 
 const Landing = () => {
   return (
@@ -34,7 +35,7 @@ const Landing = () => {
         </section>
 
         <section id="Experiences">
-          <div className="h-screen space-y-10">
+          <div className="space-y-10">
             <div className="text-3xl font-semibold justify-center">
               Experiences & Projects
             </div>
@@ -45,6 +46,14 @@ const Landing = () => {
             The goal of the project is to create a more appealing and engaging website that will attract more applicants and sponsors. 
             I am responsible for designing the new website, developing the interactive elements, and ensuring that the website has a 
             good user experience."
+              />
+
+              <Current
+                img={glimpse}
+                paragraphContent="Glimpse is a website/app designed to make it easy for friends to stay connected and updated on each 
+                other's lives. By signing up with your friend group, you will receive a monthly email with prompts about your lives. Simply 
+                respond to the prompts and share any photos or videos you like. Friends can log into their accounts to view their memories 
+                over time and customize prompts."
               />
 
               <div className="flex flex-row space-x-[8%] h-[45%]">
@@ -74,8 +83,9 @@ const Landing = () => {
             </div>
           </div>
         </section>
+
         <section id="About" className="h-screen">
-          <div className="h-[94%]items-center">
+          <div className="h-[94%] items-center">
             <div className="py-[20%]">
               <div className="flex flex-row">
                 <div className="flex flex-col mr-10">
