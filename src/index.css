@@ -28,10 +28,10 @@ h1 {
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
-    background-color: #ffffff;
+    background-color: #f6f5f0;
   }
   a:hover {
-    color: #747bff;
+    color: #C39E9E;
   }
   button {
     background-color: #f9f9f9;

@@ -60,7 +60,7 @@ const Landing = () => {
                 <Project
                   img={CirrusData}
                   role="Intern"
-                  time="June - Aug 2021"
+                  time="June - August 2021"
                   paragraphContent="I assisted in the development of a cloud lab SaaS testbed environment, which 
               is a virtual environment that can be used to test and deploy cloud-based applications. I managed virtual machines, created 
               spreadsheets and diagrams of physical machines and cables, and helped to troubleshoot problems. This experience gave me the 
@@ -70,7 +70,7 @@ const Landing = () => {
                 <Project
                   className="overflow-y-auto"
                   img={Research}
-                  time="Jan - April 2021"
+                  time="January - April 2021"
                   role="Researcher"
                   paragraphContent="I am the sole author of a research paper published in an academic journal. In this 
               paper, I developed an image-based land-use classNameifier using transfer learning with a pre-trained ResNet-18 convolutional 
@@ -111,7 +111,7 @@ const Landing = () => {
                     sounds like you,
                     <a
                       href="https://www.linkedin.com/in/chuyinweng/"
-                      className="text-blue-600 font-bold"
+                      className="font-bold"
                     >
                       {" "}
                       lets connect!

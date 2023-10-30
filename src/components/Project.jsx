@@ -22,7 +22,7 @@ const Project = ({ img, role, time, paragraphContent, link }) => {
 
   return (
     <div
-      className="w-[55%] bg-white rounded-3xl p-6 hover:bg-slate-100 cursor-pointer transition-all drop-shadow-lg h-80"
+      className="w-[55%] bg-white rounded-3xl p-6 hover:bg-[#F0E4D8] cursor-pointer transition-all drop-shadow-lg h-80"
       onMouseOver={() => setShowContent(true)}
       onMouseLeave={() => setShowContent(false)}
     >
