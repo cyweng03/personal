@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-const Current = ({ img, paragraphContent }) => {
+const Current = ({ img, paragraphContent, link }) => {
   const [showContent, setShowContent] = useState(false);
 
   return (
@@ -15,7 +15,19 @@ const Current = ({ img, paragraphContent }) => {
       </div>
       <div className="w-full flex items-center justify-end">
         {showContent ? (
-          <div className="text-black">{paragraphContent}</div>
+          <div>
+            <div className="text-black">{paragraphContent}</div>
+            {link && (
+              <a
+                href={link}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-black"
+              >
+                <strong>Learn more</strong>
+              </a>
+            )}
+          </div>
         ) : (
           <img
             src={img}

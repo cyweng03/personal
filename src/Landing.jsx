@@ -8,10 +8,28 @@ import Project from "./components/Project";
 import Current from "./components/Current";
 import Top from "./components/Top";
 import glimpse from "./img/Glimpse.png";
+import { useState, useEffect } from "react";
 
 const Landing = () => {
+  // const [lineHeight, setLineHeight] = useState("0%");
+
+  // useEffect(() => {
+  //   const handleScroll = () => {
+  //     const totalHeight = document.body.scrollHeight - window.innerHeight;
+  //     const percentageScrolled = (window.scrollY / totalHeight) * 100;
+  //     setLineHeight(`${percentageScrolled}%`);
+  //   };
+
+  //   window.addEventListener("scroll", handleScroll);
+
+  //   return () => {
+  //     window.removeEventListener("scroll", handleScroll);
+  //   };
+  // }, []);
   return (
     <>
+      {/* <div className="vertical-line" style={{ height: lineHeight }}></div> */}
+
       <div>
         <Top />
       </div>
@@ -46,6 +64,7 @@ const Landing = () => {
             The goal of the project is to create a more appealing and engaging website that will attract more applicants and sponsors. 
             I am responsible for designing the new website, developing the interactive elements, and ensuring that the website has a 
             good user experience."
+                link="https://github.com/AguaClara/webmaster"
               />
 
               <Current
@@ -54,6 +73,7 @@ const Landing = () => {
                 other's lives. By signing up with your friend group, you will receive a monthly email with prompts about your lives. Simply 
                 respond to the prompts and share any photos or videos you like. Friends can log into their accounts to view their memories 
                 over time and customize prompts."
+                link="https://github.com/JasonMun7/glimpse"
               />
 
               <div className="flex flex-row space-x-[8%] h-[45%]">
@@ -111,7 +131,7 @@ const Landing = () => {
                     sounds like you,
                     <a
                       href="https://www.linkedin.com/in/chuyinweng/"
-                      className="font-bold"
+                      className="font-bold underline"
                     >
                       {" "}
                       lets connect!

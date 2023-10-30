@@ -37,3 +37,16 @@ h1 {
     background-color: #f9f9f9;
   }
 }
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    color: #f6f5f0;
+    background-color: #213547;
+  }
+  a:hover {
+    color: #C39E9E;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
