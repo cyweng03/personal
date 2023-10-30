@@ -137,15 +137,6 @@ const Landing = () => {
                       lets connect!
                     </a>
                   </div>
-
-                  {/* <div className="flex flex-row h-[8%] justify-center space-x-[20%] mt-[5%]"> 
-                  <a href="https://www.linkedin.com/in/chuyinweng/">
-                    <img src={linkedin} alt="linkedin" className="" />
-                  </a>
-                  <a>
-                  <img src={email} alt="email" className="h-auto"/>
-                  </a>
-                </div> */}
                 </div>
                 <div className="flex ml-10">
                   <center>
