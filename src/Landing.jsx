@@ -102,6 +102,18 @@ const Landing = () => {
               </div>
             </div>
           </div>
+          <div className="text-lg mt-5 mb-2">
+            {" "}
+            {/* GitHub Link Section */}
+            Want to see more? Check out my
+            <a
+              href="https://github.com/dorawengg"
+              className="font-bold underline"
+            >
+              {" "}
+              GitHub!
+            </a>
+          </div>
         </section>
 
         <section id="About" className="h-screen">
