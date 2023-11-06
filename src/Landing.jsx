@@ -8,6 +8,7 @@ import Project from "./components/Project";
 import Current from "./components/Current";
 import Top from "./components/Top";
 import glimpse from "./img/Glimpse.png";
+import wicc from "./img/WICC.jpeg";
 import { useState, useEffect } from "react";
 
 const Landing = () => {
@@ -65,6 +66,12 @@ const Landing = () => {
             I am responsible for designing the new website, developing the interactive elements, and ensuring that the website has a 
             good user experience."
                 link="https://github.com/AguaClara/webmaster"
+              />
+
+              <Current
+                img={wicc}
+                paragraphContent="I am currently on the technical committee for Women in Computing at Cornell and we are updating the organization's website."
+                link="https://github.com/Women-in-Computing-at-Cornell/WICC-web"
               />
 
               <Current
