@@ -15,7 +15,7 @@ const Projects = () => {
               <div>{project.desription}</div>
             </div>
 
-            <div className="space-y-2">
+            <div className="space-y-2 text-right">
               {project.tools.map((tool, key) => (
                 <div key={key}>{tool}</div>
               ))}
