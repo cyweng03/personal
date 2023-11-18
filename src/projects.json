@@ -1,0 +1,40 @@
+{
+  "Projects": [
+    {
+      "name": "AguaClara",
+      "logo": "src/img/AguaClaraLogo.webp",
+      "time": "February 2023 - Present",
+      "type": "",
+      "desription": "I am currently working on a project to build a new website for my organization. The goal of the project is to create a more appealing and engaging website that will attract more applicants and sponsors. I am responsible for designing the new website, developing the interactive elements, and ensuring that the website has a good user experience.",
+      "link": "https://github.com/AguaClara/webmaster",
+      "tools": ["tool", "tool", "tool"]
+    },
+    {
+      "name": "Women In Computing at Cornell",
+      "logo": "src/img/WICC.jpeg",
+      "time": "September 2023 - Present",
+      "type": "",
+      "desription": "As a member of the technical committee for Women in Computing at Cornell, I play a role in redesigning and implementing the 'Who We Are page' of our website, focusing on enhancing user flow, modernizing design, and revamping code for better performance. Working closely with two team members, my responsibilities include ensuring sleek aesthetics, functional excellence, and content accuracy. This project not only contributes to the organization's outreach but also serves as a valuable platform for my professional growth in web development and design.",
+      "link": "https://github.com/Women-in-Computing-at-Cornell/WICC-web",
+      "tools": ["tool", "tool", "tool"]
+    },
+    {
+      "name": "Glimpse",
+      "logo": "src/img/Glimpse.png",
+      "time": "September 2023 - Present",
+      "type": "",
+      "desription": "Glimpse is a website/app designed to make it easy for friends to stay connected and updated on each other's lives. By signing up with your friend group, you will receive a monthly email with prompts about your lives. Simply respond to the prompts and share any photos or videos you like. Friends can log into their accounts to view their memories over time and customize prompts.",
+      "link": "",
+      "tools": ["tool", "tool", "tool"]
+    },
+    {
+      "name": "Research",
+      "logo": "src/img/ResearchLogo.png",
+      "time": "January 2021 - April 2021",
+      "type": "",
+      "desription": "I am the sole author of a research paper published in an academic journal. In this paper, I developed an image-based land-use classNameifier using transfer learning with a pre-trained ResNet-18 convolutional neural network using PyTorch. I demonstrated the effectiveness of transfer learning for image classNameification by conducting a comprehensive analysis of the resulting data. I identified key trends and insights from the data, and presented the results in a clear and concise manner.",
+      "link": "https://www.scirp.org/journal/paperinformation.aspx?paperid=119165",
+      "tools": ["tool", "tool", "tool"]
+    }
+  ]
+}

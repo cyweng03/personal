@@ -1,36 +1,13 @@
 import React from "react";
 import Navbar from "./components/Navbar";
 import pic from "./img/IMG_0617.jpg";
-import AguaClara from "./img/AguaClaraLogo.webp";
-import CirrusData from "./img/CirrusDataLogo.png";
-import Research from "./img/ResearchLogo.png";
-import Project from "./components/Project";
-import Current from "./components/Current";
+import me from "./img/meh.jpeg";
 import Top from "./components/Top";
-import glimpse from "./img/Glimpse.png";
-import wicc from "./img/WICC.jpeg";
-import { useState, useEffect } from "react";
+import Projects from "./components/Projects";
 
 const Landing = () => {
-  // const [lineHeight, setLineHeight] = useState("0%");
-
-  // useEffect(() => {
-  //   const handleScroll = () => {
-  //     const totalHeight = document.body.scrollHeight - window.innerHeight;
-  //     const percentageScrolled = (window.scrollY / totalHeight) * 100;
-  //     setLineHeight(`${percentageScrolled}%`);
-  //   };
-
-  //   window.addEventListener("scroll", handleScroll);
-
-  //   return () => {
-  //     window.removeEventListener("scroll", handleScroll);
-  //   };
-  // }, []);
   return (
     <>
-      {/* <div className="vertical-line" style={{ height: lineHeight }}></div> */}
-
       <div>
         <Top />
       </div>
@@ -45,9 +22,12 @@ const Landing = () => {
                 </div>
                 <div className="ml-5 font-semibold text-3xl"> aka Dora</div>
               </div>
-              <div className="font-semibold text-2xl">
-                Full-stack developer with a passion for building innovative
+              <div className="font-semibold text-2xl mb-5">
+                I’m a developer with a passion for building innovative
                 solutions.
+              </div>
+              <div className="font-semibold text-2xl">
+                Check out my projects below.
               </div>
             </div>
           </div>
@@ -58,55 +38,8 @@ const Landing = () => {
             <div className="text-3xl font-semibold justify-center">
               Experiences & Projects
             </div>
-            <div className="justify-center space-y-[5%] h-[80%]">
-              <Current
-                img={AguaClara}
-                paragraphContent="I am currently working on a project to build a new website for my organization. 
-            The goal of the project is to create a more appealing and engaging website that will attract more applicants and sponsors. 
-            I am responsible for designing the new website, developing the interactive elements, and ensuring that the website has a 
-            good user experience."
-                link="https://github.com/AguaClara/webmaster"
-              />
-
-              <Current
-                img={wicc}
-                paragraphContent="I am currently on the technical committee for Women in Computing at Cornell and we are updating the organization's website."
-                link="https://github.com/Women-in-Computing-at-Cornell/WICC-web"
-              />
-
-              <Current
-                img={glimpse}
-                paragraphContent="Glimpse is a website/app designed to make it easy for friends to stay connected and updated on each 
-                other's lives. By signing up with your friend group, you will receive a monthly email with prompts about your lives. Simply 
-                respond to the prompts and share any photos or videos you like. Friends can log into their accounts to view their memories 
-                over time and customize prompts."
-                link="https://github.com/JasonMun7/glimpse"
-              />
-
-              <div className="flex flex-row space-x-[8%] h-[45%]">
-                <Project
-                  img={CirrusData}
-                  role="Intern"
-                  time="June - August 2021"
-                  paragraphContent="I assisted in the development of a cloud lab SaaS testbed environment, which 
-              is a virtual environment that can be used to test and deploy cloud-based applications. I managed virtual machines, created 
-              spreadsheets and diagrams of physical machines and cables, and helped to troubleshoot problems. This experience gave me the 
-              opportunity to learn about cloud computing technologies and to gain experience in managing and troubleshooting virtual 
-              machines."
-                />
-                <Project
-                  className="overflow-y-auto"
-                  img={Research}
-                  time="January - April 2021"
-                  role="Researcher"
-                  paragraphContent="I am the sole author of a research paper published in an academic journal. In this 
-              paper, I developed an image-based land-use classNameifier using transfer learning with a pre-trained ResNet-18 convolutional 
-              neural network using PyTorch. I demonstrated the effectiveness of transfer learning for image classNameification by conducting 
-              a comprehensive analysis of the resulting data. I identified key trends and insights from the data, and presented the results 
-              in a clear and concise manner."
-                  link="https://www.scirp.org/journal/paperinformation.aspx?paperid=119165"
-                />
-              </div>
+            <div className="space-y-10">
+              <Projects />
             </div>
           </div>
           <div className="text-lg mt-5 mb-2">
@@ -126,7 +59,7 @@ const Landing = () => {
         <section id="About" className="h-screen">
           <div className="h-[94%] items-center">
             <div className="py-[20%]">
-              <div className="flex flex-row">
+              <div className="flex flex-row items-center">
                 <div className="flex flex-col mr-10">
                   <div className="text-3xl font-semibold mt-5 mb-5">
                     Hey there, I'm Dora
@@ -152,16 +85,15 @@ const Landing = () => {
                       href="https://www.linkedin.com/in/chuyinweng/"
                       className="font-bold underline"
                     >
-                      {" "}
                       lets connect!
                     </a>
                   </div>
                 </div>
-                <div className="flex ml-10">
-                  <center>
-                    <img src={pic} alt="Pic of me" className="rounded-full" />
-                  </center>
-                </div>
+                <img
+                  src={me}
+                  alt="Pic of me"
+                  className="rounded-3xl object-cover w-1/3"
+                />
               </div>
             </div>
           </div>
