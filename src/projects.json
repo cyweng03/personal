@@ -24,7 +24,7 @@
       "time": "September 2023 - Present",
       "type": "",
       "desription": "Glimpse is a website/app designed to make it easy for friends to stay connected and updated on each other's lives. By signing up with your friend group, you will receive a monthly email with prompts about your lives. Simply respond to the prompts and share any photos or videos you like. Friends can log into their accounts to view their memories over time and customize prompts.",
-      "link": "",
+      "link": "https://github.com/Glimpse-Dev",
       "tools": ["React", "Supabase"]
     },
     {

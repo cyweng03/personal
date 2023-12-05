@@ -9,7 +9,14 @@ const Projects = () => {
           <div className="bg-[#F9F9F9] rounded-3xl p-10 flex flex-row justify-between space-x-5 shadow-lg hover:bg-[#F0E4D8] transition duration-300 ">
             <div>
               <div className="mb-10">
-                <div className="text-4xl font-bold">{project.name}</div>
+                <a
+                  href={project.link} // Set the link destination
+                  target="_blank" // Open the link in a new tab
+                  rel="noopener noreferrer" // Security feature for opening new tabs
+                  className="text-4xl font-bold"
+                >
+                  {project.name}
+                </a>
                 <div>{project.time}</div>
               </div>
               <div>{project.desription}</div>
