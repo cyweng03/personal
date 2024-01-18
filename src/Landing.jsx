@@ -80,7 +80,7 @@ const Landing = () => {
                   <div className="text-lg mt-5 mb-2">
                     I'm inspired by people who use design to solve real-world
                     problems and make a positive impact on the world. If that
-                    sounds like you,
+                    sounds like you,{" "}
                     <a
                       href="https://www.linkedin.com/in/chuyinweng/"
                       className="font-bold underline"
