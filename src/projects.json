@@ -24,7 +24,7 @@
       "time": "February 2024",
       "type": "",
       "desription": "I led the organization of the semesterly technical workshop with a focus on expanding computing skills among Cornell students. I played a key role in developing a website template for participants to use as a starting point. The workshop content covered important areas such as website project structure, modular components, and deployment methods, and was designed to accommodate students with varying levels of computing experience through clear, step-by-step instructions. I collaborated closely with committee members to plan and execute the workshop effectively, ensuring a supportive learning environment for all participants.",
-      "link": "https://github.com/Women-in-Computing-at-Cornell/WICC-web",
+      "link": "https://github.com/dorawengg/2024-wicc-workshop",
       "tools": ["JavaScript", "TailwindCSS", "Figma"]
     },
     {
