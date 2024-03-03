@@ -1,11 +1,13 @@
 import React from "react";
 import Navbar from "./components/Navbar";
-import pic from "./img/IMG_0617.jpg";
 import me from "./img/meh.jpeg";
 import Top from "./components/Top";
 import Projects from "./components/Projects";
+import Footer from './components/Footer'
+
 
 const Landing = () => {
+
   return (
     <>
       <div>
@@ -22,8 +24,10 @@ const Landing = () => {
                 </div>
                 <div className="ml-5 font-semibold text-3xl"> aka Dora</div>
               </div>
-              <div className="font-semibold text-2xl mb-5">
-                I’m a developer with a passion for building innovative
+
+              <div className="font-semibold text-2xl mb-5 relative w-[max-content] 
+              before:absolute before:inset-0 before:bg-[#f6f5f0] before:animate-typewriter">
+                I'm a developer with a passion for building innovative
                 solutions.
               </div>
               <div className="font-semibold text-2xl">
@@ -66,16 +70,11 @@ const Landing = () => {
                   </div>
                   <div className="text-lg mt-5 mb-2">
                     I am currently a student at Cornell University with a
-                    passion for developing innovative software solutions.
+                    passion for developing creative and innovative software solutions.
                   </div>
 
                   <div className="text-lg mt-5 mb-2">
-                    My passion for technology was influenced by my dad, who
-                    works in the field. I am a team player and I am always
-                    willing to learn new things. I am particularly interested in
-                    web and backend development, and I am excited to explore the
-                    potential of these technologies to solve real-world
-                    problems.
+                    My interest in technology was sparked by my dad, who works in the field, and I've since developed a keen interest in web and backend development. I thrive on creative problem-solving and am fascinated by the exploration of information presentation and its impacts. As a team player, I am always eager to learn new things and explore the potential of technology to solve real-world problems.
                   </div>
                   <div className="text-lg mt-5 mb-2">
                     I'm inspired by people who use design to solve real-world
@@ -99,6 +98,7 @@ const Landing = () => {
           </div>
         </section>
       </div>
+      {/* <Footer className="w-screen" /> */}
     </>
   );
 };
