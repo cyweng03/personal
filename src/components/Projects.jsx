@@ -1,11 +1,21 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useRef } from "react";
 import projects from "../projects.json";
+import { useInView, motion } from "framer-motion";
 
-const Projects = () => {
+const Project = ({ project, index }) => {
+  const ref = useRef(null);
+  const isInView = useInView(ref, { once: true });
+
   return (
-    <>
-      {projects.Projects.map((project, index) => (
-        <div key={index}>
+    <section ref={ref}>
+      <div
+        style={{
+          transform: isInView ? "none" : "translateY(200px)",
+          opacity: isInView ? 1 : 0,
+          transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s"
+        }}
+      >
+        <div key={index} >
           <div className="bg-[#F9F9F9] rounded-3xl p-10 flex flex-row justify-between space-x-5 shadow-lg hover:bg-[#F0E4D8] transition duration-300 ">
             <div>
               <div className="mb-10">
@@ -32,6 +42,17 @@ const Projects = () => {
             </div>
           </div>
         </div>
+      </div>
+    </section>
+  );
+}
+
+const Projects = () => {
+  return (
+    <>
+      {projects.Projects.map((project, index) => (
+        <Project project={project} key={index} />
+
       ))}
     </>
   );

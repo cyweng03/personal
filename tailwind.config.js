@@ -3,16 +3,6 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
-      animation: {
-        typewriter: "typewriter 3s steps(64) forwards"
-      },
-      keyframes: {
-        typewriter: {
-          to: {
-            left: "100%"
-          }
-        }
-      }
     },
     screens: {
       sm: "640px",

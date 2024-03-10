@@ -1,12 +1,48 @@
+"use client";
 import React from "react";
 import Navbar from "./components/Navbar";
 import me from "./img/meh.jpeg";
 import Top from "./components/Top";
 import Projects from "./components/Projects";
 import Footer from './components/Footer'
+import { TypewriterEffect } from "../src/ui/typewriter-effect";
 
 
 const Landing = () => {
+
+  const words = [
+    {
+      text: "I'm",
+    },
+    {
+      text: "a",
+    },
+    {
+      text: "developer",
+    },
+    {
+      text: "with",
+    },
+    {
+      text: "a",
+    },
+    {
+      text: "passion",
+      className: "text-[#c39e9e]",
+    },
+    {
+      text: "for",
+    },
+    {
+      text: "building",
+    },
+    {
+      text: "innovative",
+    },
+    {
+      text: "solutions.",
+    },
+  ];
 
   return (
     <>
@@ -24,12 +60,7 @@ const Landing = () => {
                 </div>
                 <div className="ml-5 font-semibold text-3xl"> aka Dora</div>
               </div>
-
-              <div className="font-semibold text-2xl mb-5 relative w-[max-content] 
-              before:absolute before:inset-0 before:bg-[#f6f5f0] before:animate-typewriter">
-                I'm a developer with a passion for building innovative
-                solutions.
-              </div>
+              <TypewriterEffect words={words} className="font-semibold text-2xl mb-5 relative text-left" />
               <div className="font-semibold text-2xl">
                 Check out my projects below.
               </div>
