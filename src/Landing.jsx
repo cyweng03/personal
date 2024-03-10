@@ -28,7 +28,7 @@ const Landing = () => {
     },
     {
       text: "passion",
-      className: "text-[#c39e9e]",
+
     },
     {
       text: "for",
@@ -38,6 +38,7 @@ const Landing = () => {
     },
     {
       text: "innovative",
+      className: "text-[#c39e9e]",
     },
     {
       text: "solutions.",
