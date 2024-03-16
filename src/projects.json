@@ -40,6 +40,18 @@
       ]
     },
     {
+      "name": "ConsenCity",
+      "logo": "src/img/Glimpse.png",
+      "time": "March 2023",
+      "type": "",
+      "desription": "During a 24-hour hackathon, my team developed a web application to improve transparency in local government policymaking. Our project, which facilitated public access to policy information, won the best software award for its innovation and impact on civic engagement.",
+      "link": "https://github.com/JasonMun7/brh2024",
+      "tools": [
+        "React",
+        "Supabase"
+      ]
+    },
+    {
       "name": "Glimpse",
       "logo": "src/img/Glimpse.png",
       "time": "September 2023 - Present",
