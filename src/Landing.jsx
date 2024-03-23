@@ -6,6 +6,10 @@ import Top from "./components/Top";
 import Projects from "./components/Projects";
 import Footer from './components/Footer'
 import { TypewriterEffect } from "../src/ui/typewriter-effect";
+import { useRef } from "react";
+import { IconChevronDown } from '@tabler/icons-react';
+import { motion } from 'framer-motion';
+
 
 
 const Landing = () => {
@@ -45,6 +49,12 @@ const Landing = () => {
     },
   ];
 
+  const secondPortionRef = useRef(null);
+
+  const scrollToSecondPortion = () => {
+    secondPortionRef.current?.scrollIntoView({ behavior: 'smooth' });
+  };
+
   return (
     <>
       <div>
@@ -65,31 +75,48 @@ const Landing = () => {
               <div className="font-semibold text-2xl">
                 Check out my projects below.
               </div>
+              <div onClick={scrollToSecondPortion} className='group flex flex-col space-y-4 items-center hover:cursor-pointer justify-center mt-24 mb-24'>
+                <motion.div
+                  animate={{ y: ["0%", "-20%", "0%"] }}
+                  transition={{
+                    duration: 0.6,
+                    ease: "easeInOut",
+                    repeat: Infinity,
+                    repeatType: "loop"
+                  }}
+                >
+                  <IconChevronDown size={60} color='#c39e9e' />
+                </motion.div>
+              </div>
+
             </div>
           </div>
         </section>
 
-        <section id="Experiences">
-          <div className="space-y-10">
-            <div className="text-3xl font-semibold justify-center">
-              Experiences & Projects
-            </div>
+        <section id="Experiences" >
+          <div ref={secondPortionRef}>
             <div className="space-y-10">
-              <Projects />
+              <div className="text-3xl font-semibold justify-center">
+                Experiences & Projects
+              </div>
+              <div className="space-y-10">
+                <Projects />
+              </div>
+            </div>
+            <div className="text-lg mt-5 mb-2">
+              {" "}
+              {/* GitHub Link Section */}
+              Want to see more? Check out my
+              <a
+                href="https://github.com/dorawengg"
+                className="font-bold underline"
+              >
+                {" "}
+                GitHub!
+              </a>
             </div>
           </div>
-          <div className="text-lg mt-5 mb-2">
-            {" "}
-            {/* GitHub Link Section */}
-            Want to see more? Check out my
-            <a
-              href="https://github.com/dorawengg"
-              className="font-bold underline"
-            >
-              {" "}
-              GitHub!
-            </a>
-          </div>
+
         </section>
 
         <section id="About" className="h-screen">
@@ -130,7 +157,6 @@ const Landing = () => {
           </div>
         </section>
       </div>
-      {/* <Footer className="w-screen" /> */}
     </>
   );
 };
