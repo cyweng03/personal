@@ -9,6 +9,8 @@ import { TypewriterEffect } from "../src/ui/typewriter-effect";
 import { useRef } from "react";
 import { IconChevronDown } from '@tabler/icons-react';
 import { motion } from 'framer-motion';
+import git from "./img/github.svg";
+import linkedin from "./img/linkedin.svg";
 
 
 
@@ -64,7 +66,7 @@ const Landing = () => {
         <section id="Home">
           <Navbar />
           <div className="h-screen">
-            <div className="ml-[10%] py-[20%]">
+            <div className="ml-[10%] py-[10%] mt-[10%]">
               <div className="flex flex-row items-end mb-[5%]">
                 <div className="text-5xl font-semibold ">
                   Hello, I'm <div className="text-7xl">Chu-Yin Weng</div>
@@ -75,20 +77,21 @@ const Landing = () => {
               <div className="font-semibold text-2xl">
                 Check out my projects below.
               </div>
-              <div onClick={scrollToSecondPortion} className='group flex flex-col space-y-4 items-center hover:cursor-pointer justify-center mt-24 mb-24'>
-                <motion.div
-                  animate={{ y: ["0%", "-20%", "0%"] }}
-                  transition={{
-                    duration: 0.6,
-                    ease: "easeInOut",
-                    repeat: Infinity,
-                    repeatType: "loop"
-                  }}
-                >
-                  <IconChevronDown size={60} color='#c39e9e' />
-                </motion.div>
-              </div>
 
+
+            </div>
+            <div onClick={scrollToSecondPortion} className='group flex flex-col space-y-4 items-center hover:cursor-pointer justify-center mb-24'>
+              <motion.div
+                animate={{ y: ["0%", "-20%", "0%"] }}
+                transition={{
+                  duration: 0.6,
+                  ease: "easeInOut",
+                  repeat: Infinity,
+                  repeatType: "loop"
+                }}
+              >
+                <IconChevronDown size={60} color='#c39e9e' />
+              </motion.div>
             </div>
           </div>
         </section>
@@ -146,6 +149,20 @@ const Landing = () => {
                       lets connect!
                     </a>
                   </div>
+                  <div className="flex flex-row items-center space-x-8 ">
+                    <a
+                      href="https://github.com/dorawengg"
+                      target="_blank"
+                    >
+                      <img src={git} alt="GitHub Logo" className="w-full h-full" />
+                    </a>
+                    <a
+                      href="https://www.linkedin.com/in/chuyinweng/"
+                      target="_blank"
+                    >
+                      <img src={linkedin} alt="LinkedIn Logo" className="w-full h-full" />
+                    </a>
+                  </div>
                 </div>
                 <img
                   src={me}
@@ -156,7 +173,7 @@ const Landing = () => {
             </div>
           </div>
         </section>
-        <Footer />
+        {/* <Footer /> */}
       </div>
     </>
   );
