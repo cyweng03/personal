@@ -78,7 +78,6 @@ const Landing = () => {
                 Check out my projects below.
               </div>
 
-
             </div>
             <div onClick={scrollToSecondPortion} className='group flex flex-col space-y-4 items-center hover:cursor-pointer justify-center mb-24'>
               <motion.div
@@ -106,7 +105,7 @@ const Landing = () => {
                 <Projects />
               </div>
             </div>
-            <div className="text-lg mt-5 mb-2">
+            <div className=" mt-5 mb-2">
               {" "}
               {/* GitHub Link Section */}
               Want to see more? Check out my
@@ -125,17 +124,17 @@ const Landing = () => {
         <section id="About" className="h-screen">
           <div className="h-[94%] items-center">
             <div className="py-[20%]">
-              <div className="flex flex-row items-center sm:flex-col md:flex-col-reverse">
+              <div className="flex flex-row items-center sm:flex-col-reverse">
                 <div className="flex flex-col mr-10">
-                  <div className="text-3xl font-semibold mt-5 mb-5">
+                  <div className="text-3xl font-semibold mt-3 mb-5 sm:mb-1">
                     Hey there, I'm Dora
                   </div>
-                  <div className="mt-5 mb-2">
+                  <div className="mt-5 mb-2 sm:mb-1">
                     I am currently a student at Cornell University with a
                     passion for developing creative and innovative software solutions.
                   </div>
 
-                  <div className="mt-5 mb-2">
+                  <div className="mt-5 mb-2 sm:mb-1">
                     My interest in technology was sparked by my dad, who works in the field, and I've since developed a keen interest in web and backend development. I thrive on creative problem-solving and am fascinated by the exploration of information presentation and its impacts. As a team player, I am always eager to learn new things and explore the potential of technology to solve real-world problems.
                   </div>
                   <div className="mt-5 mb-2">
@@ -167,7 +166,7 @@ const Landing = () => {
                 <img
                   src={me}
                   alt="Pic of me"
-                  className="rounded-3xl object-cover w-1/3"
+                  className="rounded-3xl object-cover w-1/3 sm:w-4/5"
                 />
               </div>
             </div>

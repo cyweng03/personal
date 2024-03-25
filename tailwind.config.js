@@ -5,17 +5,9 @@ export default {
     extend: {
     },
     screens: {
-      sm: "640px",
-      // => @media (min-width: 640px) { ... }
-
-      md: "768px",
-      // => @media (min-width: 768px) { ... }
-
-      lg: "1024px",
-      // => @media (min-width: 1024px) { ... }
-
-      xl: "1280px",
-      // => @media (min-width: 1280px) { ... }
+      sm: { max: "649px" }, // Everything up to 649px
+      md: { min: "650px", max: "800px" }, // Between 650px and 800px
+      lg: { min: "801px" }, // Everything larger than 800px
     },
   },
   plugins: [],
