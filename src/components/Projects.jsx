@@ -35,7 +35,7 @@ const Project = ({ project, index }) => {
               <div>{project.desription}</div>
             </div>
 
-            <div className="space-y-2 text-right">
+            <div className="sm:hidden md:hidden space-y-2 text-right">
               {project.tools.map((tool, key) => (
                 <div key={key}>{tool}</div>
               ))}

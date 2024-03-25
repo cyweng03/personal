@@ -1,3 +1,43 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+/* laptops xl */
+@media screen and (min-width: 1480px) {
+}
+
+/* tablets md */
+@media screen and (max-width: 800px) {
+  .text-5xl {
+    font-size: 2.5rem;
+  }
+  .text-xl {
+    font-size: 0.75rem;
+    line-height: 1rem;
+  }
+}
+
+/* phones sm */
+@media screen and (max-width: 650px) {
+  .text-5xl {
+    font-size: 1.5rem;
+  }
+  .text-4xl {
+    font-size: 1.3rem;
+  }
+  .text-3xl {
+    font-size: 1.25rem;
+  }
+  .text-2xl {
+    font-size: 1.1rem;
+  }
+  .text-xl {
+    font-size: 1rem;
+    line-height: 1rem;
+  }
+  .text-lg {
+    font-size: 0.65rem;
+    line-height: 0.5rem;
+  }
+}
