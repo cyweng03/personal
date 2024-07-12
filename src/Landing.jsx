@@ -95,7 +95,7 @@ const Landing = () => {
                 </div>
 
               </div>
-              <div onClick={scrollToSecondPortion} className='group flex flex-col space-y-4 items-center hover:cursor-pointer justify-center mb-24'>
+              <div onClick={scrollToSecondPortion} className='relative z-50 group flex flex-col space-y-4 items-center hover:cursor-pointer justify-center mb-24'>
                 <motion.div
                   animate={{ y: ["0%", "-20%", "0%"] }}
                   transition={{
@@ -105,7 +105,7 @@ const Landing = () => {
                     repeatType: "loop"
                   }}
                 >
-                  <IconChevronDown size={60} color='#FFE7BB' />
+                  <IconChevronDown size={60} color='#213547' />
                 </motion.div>
               </div>
             </div>
