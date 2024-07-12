@@ -11,7 +11,8 @@ import { IconChevronDown } from '@tabler/icons-react';
 import { motion } from 'framer-motion';
 import git from "./img/github.svg";
 import linkedin from "./img/linkedin.svg";
-
+import { BackgroundGradientAnimation } from './ui/background-gradient-animation';
+import Sidebar from './components/Sidebar'; // Import the Sidebar component
 
 
 const Landing = () => {
@@ -44,7 +45,14 @@ const Landing = () => {
     },
     {
       text: "innovative",
-      className: "text-[#c39e9e]",
+      className: "text-[#F7B17F]",
+    },
+    {
+      text: "and",
+    },
+    {
+      text: "user-centered",
+      className: "text-[#7E9BC9]",
     },
     {
       text: "solutions.",
@@ -57,45 +65,54 @@ const Landing = () => {
     secondPortionRef.current?.scrollIntoView({ behavior: 'smooth' });
   };
 
+  const sections = [
+    { id: 'Home', title: 'Home' },
+    { id: 'Experiences', title: 'Experiences' },
+    { id: 'About', title: 'About' },
+  ];
+
   return (
     <>
-      <div>
+      <Sidebar sections={sections} />
+      {/* <div>
         <Top />
-      </div>
+      </div> */}
       <div>
         <section id="Home">
-          <Navbar />
-          <div className="h-screen">
-            <div className="ml-[10%] py-[10%] mt-[10%]">
-              <div className="flex flex-row items-end mb-[5%]">
-                <div className="text-5xl font-semibold ">
-                  Hello, I'm <div className="text-7xl">Chu-Yin Weng</div>
+          <BackgroundGradientAnimation>
+            <div className="h-screen">
+              {/* <Navbar className="relative z-50" /> */}
+              <div className="px-[10%] py-[10%] mt-[5%]">
+                <div className="flex flex-row items-end mb-[3%] relative z-50">
+                  <div className="text-5xl font-semibold ">
+                    Hello, I'm <div className="text-7xl">Chu-Yin Weng</div>
+                  </div>
+                  <div className="ml-5 font-semibold text-3xl"> aka Dora</div>
                 </div>
-                <div className="ml-5 font-semibold text-3xl"> aka Dora</div>
-              </div>
-              <TypewriterEffect words={words} className="font-semibold text-2xl mb-5 relative text-left" />
-              <div className="font-semibold text-2xl">
-                Check out my projects below.
-              </div>
+                <TypewriterEffect words={words} className="font-semibold text-2xl mb-5 relative text-left z-50" />
+                <div className="font-semibold text-2xl">
+                  Check out my projects below :)
+                </div>
 
+              </div>
+              <div onClick={scrollToSecondPortion} className='group flex flex-col space-y-4 items-center hover:cursor-pointer justify-center mb-24'>
+                <motion.div
+                  animate={{ y: ["0%", "-20%", "0%"] }}
+                  transition={{
+                    duration: 0.6,
+                    ease: "easeInOut",
+                    repeat: Infinity,
+                    repeatType: "loop"
+                  }}
+                >
+                  <IconChevronDown size={60} color='#FFE7BB' />
+                </motion.div>
+              </div>
             </div>
-            <div onClick={scrollToSecondPortion} className='group flex flex-col space-y-4 items-center hover:cursor-pointer justify-center mb-24'>
-              <motion.div
-                animate={{ y: ["0%", "-20%", "0%"] }}
-                transition={{
-                  duration: 0.6,
-                  ease: "easeInOut",
-                  repeat: Infinity,
-                  repeatType: "loop"
-                }}
-              >
-                <IconChevronDown size={60} color='#c39e9e' />
-              </motion.div>
-            </div>
-          </div>
+          </BackgroundGradientAnimation>
         </section>
-
-        <section id="Experiences" >
+        {/* <Navbar /> */}
+        <section id="Experiences" className="px-[15%] mt-20">
           <div ref={secondPortionRef}>
             <div className="space-y-10">
               <div className="text-3xl font-semibold justify-center">
@@ -121,13 +138,13 @@ const Landing = () => {
 
         </section>
 
-        <section id="About" className="h-screen">
+        <section id="About" className="h-screen px-[15%] mt-20">
           <div className="h-[94%] items-center">
             <div className="py-[20%]">
               <div className="flex flex-row items-center sm:flex-col-reverse">
-                <div className="flex flex-col mr-10">
-                  <div className="text-3xl font-semibold mt-3 mb-5 sm:mb-1">
-                    Hey there, I'm Dora
+                <div className="flex flex-col mr-10 text-xl">
+                  <div className="text-3xl font-semibold mt-3 mb-3 sm:mb-1">
+                    Still here? More about me:
                   </div>
                   <div className="mt-5 mb-2 sm:mb-1">
                     I am currently a student at Cornell University with a

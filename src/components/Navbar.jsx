@@ -10,11 +10,11 @@ function Navbar() {
   };
 
   return (
-    <div className="flex flex-row justify-between items-center">
+    <div className="flex flex-row justify-between items-center px-[10%] mt-10">
       <a href="/#Home">
-        <div className="font-bold text-xl">Dora Weng</div>
+        <div className="font-bold text-3xl">Dora Weng</div>
       </a>
-      <ul className="nav-menu flex flex-row space-x-4">
+      <ul className="nav-menu flex flex-row space-x-4 text-xl">
         <li>
           <a onClick={() => scrollTo("About")} className="">
             About
