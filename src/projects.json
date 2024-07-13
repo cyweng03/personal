@@ -1,6 +1,15 @@
 {
   "Projects": [
     {
+      "name": "Industrial Technology Research Institute",
+      "logo": "",
+      "time": "June 2024 - August 2024",
+      "type": "",
+      "desription": "Contributed to the research and development of a digital nursing chatbot in collaboration with the Ministry of Health and Welfare.",
+      "link": "",
+      "tools": []
+    },
+    {
       "name": "AguaClara",
       "logo": "src/img/AguaClaraLogo.webp",
       "time": "February 2023 - Present",
