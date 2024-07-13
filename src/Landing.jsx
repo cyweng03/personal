@@ -105,7 +105,7 @@ const Landing = () => {
                     repeatType: "loop"
                   }}
                 >
-                  <IconChevronDown size={60} color='#213547' />
+                  <IconChevronDown size={70} color='#213547' />
                 </motion.div>
               </div>
             </div>
