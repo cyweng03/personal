@@ -24,7 +24,7 @@ const Project = ({ project, index }) => {
                     href={project.link} // Set the link destination
                     target="_blank" // Open the link in a new tab
                     rel="noopener noreferrer" // Security feature for opening new tabs
-                    className="text-4xl font-bold"
+                    className="text-2xl font-bold"
                   >
                     {project.name}
                   </a>
@@ -50,10 +50,13 @@ const Project = ({ project, index }) => {
 const Projects = () => {
   return (
     <>
-      {projects.Projects.map((project, index) => (
-        <Project project={project} key={index} />
+      <div className="grid grid-cols-2 md:grid-cols-1 sm:grid-cols-1 gap-6">
+        {projects.Projects.map((project, index) => (
+          <Project project={project} key={index} />
 
-      ))}
+        ))}
+      </div>
+
     </>
   );
 };

@@ -19,10 +19,7 @@ const Landing = () => {
 
   const words = [
     {
-      text: "I'm",
-    },
-    {
-      text: "a",
+      text: "A",
     },
     {
       text: "developer",
@@ -45,14 +42,14 @@ const Landing = () => {
     },
     {
       text: "innovative",
-      className: "text-[#F7B17F]",
+      className: "text-[#FFBE5C]",
     },
     {
-      text: "and",
+      text: "&",
     },
     {
       text: "user-centered",
-      className: "text-[#7E9BC9]",
+      className: "text-[#75AAFB]",
     },
     {
       text: "solutions.",
@@ -73,7 +70,7 @@ const Landing = () => {
 
   return (
     <>
-      <Sidebar sections={sections} className="sm:hidden md:hidden" />
+      <Sidebar sections={sections} className="sm:hidden" />
       {/* <div>
         <Top />
       </div> */}
@@ -140,30 +137,27 @@ const Landing = () => {
 
         <section id="About" className="h-screen px-[15%] mt-20">
           <div className="h-[94%] items-center">
-            <div className="py-[20%]">
+            <div className="py-[15%]">
               <div className="flex flex-row items-center sm:flex-col-reverse">
                 <div className="flex flex-col mr-10 text-xl">
-                  <div className="text-3xl font-semibold mt-3 mb-3 sm:mb-1">
+                  <div className="text-3xl font-semibold mt-3 mb-2 sm:mb-1">
                     Still here? More about me:
                   </div>
                   <div className="mt-5 mb-2 sm:mb-1">
-                    I am currently a student at Cornell University with a
-                    passion for developing creative and innovative software solutions.
+                    I'm a student at <span className="font-bold text-red-500">Cornell University</span> passionate about crafting innovative software solutions. Inspired by my father's work in technology, I've developed a strong interest in <span className="font-bold text-[#75AAFB]">human computer interactions</span>, specifically in web development. I enjoy collaborating with teams and am eager to continually expand my skillset.
                   </div>
 
                   <div className="mt-5 mb-2 sm:mb-1">
-                    My interest in technology was sparked by my dad, who works in the field, and I've since developed a keen interest in web and backend development. I thrive on creative problem-solving and am fascinated by the exploration of information presentation and its impacts. As a team player, I am always eager to learn new things and explore the potential of technology to solve real-world problems.
-                  </div>
-                  <div className="mt-5 mb-2">
-                    I'm inspired by people who use design to solve real-world
-                    problems and make a positive impact on the world. If that
-                    sounds like you,{" "}
-                    <a
+                    My goal is to leverage technology to address real-world challenges. I'm particularly drawn to individuals who share this vision of using design to create a positive impact. If you're passionate about solving problems through design, {" "}<a
                       href="https://www.linkedin.com/in/chuyinweng/"
-                      className="font-bold underline"
+                      className="font-bold underline text-[#0277B5]"
                     >
                       lets connect!
                     </a>
+                  </div>
+                  <div className="mt-5 mb-2">
+                    Outside of academics, I explore creative websites, experiment with coffee recipes, and I'm a big foodie.
+
                   </div>
                   <div className="flex flex-row items-center space-x-8 ">
                     <a

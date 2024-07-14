@@ -5,17 +5,20 @@
       "logo": "",
       "time": "June 2024 - August 2024",
       "type": "",
-      "desription": "Contributed to the research and development of a digital nursing chatbot in collaboration with the Ministry of Health and Welfare.",
+      "desription": "Contributed to the research and development of a digital nursing chatbot in collaboration with the Ministry of Health and Welfare utilizing Streamlit and a Retrieval-Augmented Generation LLM model.",
       "link": "",
-      "tools": []
+      "tools": [
+        "Streamlit",
+        "LLM"
+      ]
     },
     {
       "name": "AguaClara",
       "logo": "src/img/AguaClaraLogo.webp",
       "time": "February 2023 - Present",
       "type": "",
-      "desription": "I am currently working on a project to build a new website for my organization. The goal of the project is to create a more appealing and engaging website that will attract more applicants and sponsors. I am responsible for designing the new website, developing the interactive elements, and ensuring that the website has a good user experience.",
-      "link": "https://github.com/AguaClara/webmaster",
+      "desription": "Designed and developed a new team website by identifying issues and redesigning the information architecture to build a user-friendly and scalable platform, enhancing information accessibility and resulting in a 50% increase in page views within the first three months of deployment.",
+      "link": "https://aguaclara.cornell.edu",
       "tools": [
         "React",
         "TailwindCSS",
@@ -27,7 +30,7 @@
       "logo": "src/img/WICC.jpeg",
       "time": "September 2023 - Present",
       "type": "",
-      "desription": "As a member of the technical committee for Women in Computing at Cornell, I play a role in redesigning and implementing the 'Who We Are page' of our website, focusing on enhancing user flow, modernizing design, and revamping code for better performance. Working closely with two team members, my responsibilities include ensuring sleek aesthetics, functional excellence, and content accuracy. This project not only contributes to the organization's outreach but also serves as a valuable platform for my professional growth in web development and design.",
+      "desription": "I play a role in redesigning and implementing our website, focusing on enhancing user flow, modernizing design, and revamping code for better performance. Working closely with two team members, my responsibilities include ensuring sleek aesthetics, functional excellence, and content accuracy. This project not only contributes to the organization's outreach but also serves as a valuable platform for my professional growth in web development and design.",
       "link": "https://github.com/Women-in-Computing-at-Cornell/WICC-web",
       "tools": [
         "JavaScript",
@@ -40,7 +43,7 @@
       "logo": "src/img/WICC.jpeg",
       "time": "February 2024",
       "type": "",
-      "desription": "I led the organization of the semesterly technical workshop with a focus on expanding computing skills among Cornell students. I played a key role in developing a website template for participants to use as a starting point. The workshop content covered important areas such as website project structure, modular components, and deployment methods, and was designed to accommodate students with varying levels of computing experience through clear, step-by-step instructions. I collaborated closely with committee members to plan and execute the workshop, ensuring a supportive learning environment for all participants.",
+      "desription": "I led the organization of an annual technical workshop with a focus on expanding computing skills among Cornell students. The workshop content covered important areas such as website project structure, modular components, and deployment methods, and was designed to accommodate students with varying levels of computing experience. I collaborated closely with committee members to plan and execute the workshop, ensuring a supportive learning environment for all participants.",
       "link": "https://github.com/dorawengg/2024-wicc-workshop",
       "tools": [
         "JavaScript",
@@ -69,20 +72,8 @@
       "link": "https://github.com/Glimpse-Dev",
       "tools": [
         "React",
+        "React Native",
         "Supabase"
-      ]
-    },
-    {
-      "name": "ClubSpace",
-      "logo": "",
-      "time": "January - July 2023",
-      "type": "",
-      "desription": "Cornell ClubSpace was a information web service designed to streamline the club searching process for students here at Cornell.",
-      "link": "",
-      "tools": [
-        "React",
-        "PostgreSQL",
-        "Next.js"
       ]
     },
     {

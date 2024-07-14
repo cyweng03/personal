@@ -25,7 +25,7 @@ const Sidebar = ({ sections }) => {
   };
 
   return (
-    <div className="fixed left-0 top-0 h-full w-[10%] flex flex-col justify-center space-y-5 ">
+    <div className="fixed left-0 top-0 h-full w-[10%] flex flex-col justify-center space-y-5">
       {sections.map((section) => (
         <button
           key={section.id}
