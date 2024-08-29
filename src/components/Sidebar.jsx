@@ -35,7 +35,16 @@ const Sidebar = ({ sections }) => {
           {section.title}
         </button>
       ))}
+      <a
+        href="https://drive.google.com/file/d/1q9sN1zcn59lgUAuVvOT2-c2O2ux77auH/view?usp=sharing"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="p-2 text-xl bg-transparent text-left ml-5 mt-auto"
+      >
+        Resume
+      </a>
     </div>
+
   );
 };
 

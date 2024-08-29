@@ -144,11 +144,11 @@ const Landing = () => {
                     Still here? More about me:
                   </div>
                   <div className="mt-5 mb-2 sm:mb-1">
-                    I'm a student at <span className="font-bold text-red-500">Cornell University</span> passionate about crafting innovative software solutions. Inspired by my father's work in technology, I've developed a strong interest in <span className="font-bold text-[#75AAFB]">human computer interactions</span>, specifically in web development. I enjoy collaborating with teams and am eager to continually expand my skillset.
+                    I'm a student at <span className="font-bold text-red-500">Cornell University</span> passionate about crafting innovative software solutions. Inspired by my father's work in technology, I've developed a strong interest in <span className="font-bold text-[#75AAFB]">human computer interactions</span>, specifically in web development and presenting information in intuitive ways. I enjoy collaborating with teams and am eager to continually expand my skillset.
                   </div>
 
                   <div className="mt-5 mb-2 sm:mb-1">
-                    My goal is to leverage technology to address real-world challenges. I'm particularly drawn to individuals who share this vision of using design to create a positive impact. If you're passionate about solving problems through design, {" "}<a
+                    My goal is to leverage technology to address real-world challenges. I'm particularly drawn to individuals who share this vision of using design to create a positive impact. If you're passionate about solving problems through creative design, {" "}<a
                       href="https://www.linkedin.com/in/chuyinweng/"
                       className="font-bold underline text-[#0277B5]"
                     >
@@ -156,7 +156,8 @@ const Landing = () => {
                     </a>
                   </div>
                   <div className="mt-5 mb-2">
-                    Outside of academics, I explore creative websites, experiment with coffee recipes, and I'm a big foodie.
+                    Outside of academics, I explore creative websites, experiment with coffee recipes, and craft monthly <a href="https://open.spotify.com/user/bz8bpaku8nlwtlnl2n4v3djh9?si=c8a0d409b5704a3b"
+                      className="font-bold underline text-[#1DB954]">Spotify</a> platlists.
 
                   </div>
                   <div className="flex flex-row items-center space-x-8 ">
