@@ -1,15 +1,34 @@
 {
   "Projects": [
     {
+      "name": "RAG System with Local LLM",
+      "time": "2024",
+      "type": "Personal Project",
+      "desription": "Built a Retrieval-Augmented Generation (RAG) system that allows users to upload and analyze unlimited documents using a locally hosted LLM (Llama3). The system enables efficient document retrieval and context-aware chatbot responses, leveraging FAISS for vector storage and LangChain for seamless integration.",
+      "link": "https://github.com/dorawengg/RAG-LLM",
+      "tools": [
+        "Python",
+        "Streamlit",
+        "LangChain",
+        "Ollama",
+        "FAISS",
+        "Llama3"
+      ]
+    },
+    {
       "name": "Industrial Technology Research Institute",
       "logo": "",
       "time": "June 2024 - August 2024",
       "type": "",
-      "desription": "Contributed to the research and development of a digital nursing chatbot in collaboration with the Ministry of Health and Welfare utilizing Streamlit and a Retrieval-Augmented Generation LLM model.",
+      "desription": "During my internship at the Industrial Technology Research Institute, I independently developed a locally hosted nursing chatbot using Streamlit and a Retrieval-Augmented Generation (RAG) LLM model. I enhanced the chatbot's performance by processing and analyzing information from an online medical database. Additionally, I trained the RAG model on a remote Linux server to provide more accurate responses and conducted a scoping review of 16 articles focused on speech-to-text and LLM applications in healthcare, aiming to streamline medical documentation processes.",
       "link": "",
       "tools": [
+        "Python",
         "Streamlit",
-        "LLM"
+        "LangChain",
+        "Ollama",
+        "FAISS",
+        "Llama3"
       ]
     },
     {
@@ -17,37 +36,15 @@
       "logo": "src/img/AguaClaraLogo.webp",
       "time": "February 2023 - Present",
       "type": "",
-      "desription": "Designed and developed a new team website by identifying issues and redesigning the information architecture to build a user-friendly and scalable platform, enhancing information accessibility and resulting in a 50% increase in page views within the first three months of deployment.",
+      "desription": "As the Web Development Lead for AguaClara Cornell, I led the redesign and implementation of the team’s website, which resulted in a 75% increase in page views. I designed a scalable content management system (CMS) using JavaScript and JSON to manage data for over 60 team members. I also authored detailed technical documentation and oversaw the deployment and maintenance of the site, setting up continuous integration to streamline updates and ensure efficient maintenance. \n In my current role as a Backend Developer on the POST subteam, I am working on the integration of  AWS Amplify to enable real-time and offline data synchronization for the backend of AguaDatos, ensuring data reliability in areas with limited network access.",
       "link": "https://aguaclara.cornell.edu",
       "tools": [
         "React",
         "TailwindCSS",
-        "Figma"
-      ]
-    },
-    {
-      "name": "Women In Computing at Cornell",
-      "logo": "src/img/WICC.jpeg",
-      "time": "September 2023 - Present",
-      "type": "",
-      "desription": "I play a role in redesigning and implementing our website, focusing on enhancing user flow, modernizing design, and revamping code for better performance. Working closely with two team members, my responsibilities include ensuring sleek aesthetics, functional excellence, and content accuracy. This project not only contributes to the organization's outreach but also serves as a valuable platform for my professional growth in web development and design.",
-      "link": "https://github.com/Women-in-Computing-at-Cornell/WICC-web",
-      "tools": [
+        "AWS Amplify",
         "JavaScript",
-        "CSS",
-        "Figma"
-      ]
-    },
-    {
-      "name": "WICC Workshop",
-      "logo": "src/img/WICC.jpeg",
-      "time": "February 2024",
-      "type": "",
-      "desription": "I led the organization of an annual technical workshop with a focus on expanding computing skills among Cornell students. The workshop content covered important areas such as website project structure, modular components, and deployment methods, and was designed to accommodate students with varying levels of computing experience. I collaborated closely with committee members to plan and execute the workshop, ensuring a supportive learning environment for all participants.",
-      "link": "https://github.com/dorawengg/2024-wicc-workshop",
-      "tools": [
-        "JavaScript",
-        "TailwindCSS",
+        "JSON",
+        "Git",
         "Figma"
       ]
     },
@@ -60,7 +57,8 @@
       "link": "https://github.com/JasonMun7/brh2024",
       "tools": [
         "React",
-        "Supabase"
+        "Supabase",
+        "TypeScript"
       ]
     },
     {
@@ -74,17 +72,6 @@
         "React",
         "React Native",
         "Supabase"
-      ]
-    },
-    {
-      "name": "Research",
-      "logo": "src/img/ResearchLogo.png",
-      "time": "January 2021 - April 2021",
-      "type": "",
-      "desription": "I am the sole author of a research paper published in an academic journal. In this paper, I developed an image-based land-use classNameifier using transfer learning with a pre-trained ResNet-18 convolutional neural network using PyTorch. I demonstrated the effectiveness of transfer learning for image classNameification by conducting a comprehensive analysis of the resulting data. I identified key trends and insights from the data, and presented the results in a clear and concise manner.",
-      "link": "https://www.scirp.org/journal/paperinformation.aspx?paperid=119165",
-      "tools": [
-        "Python"
       ]
     }
   ]

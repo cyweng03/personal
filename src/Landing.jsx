@@ -113,7 +113,7 @@ const Landing = () => {
           <div ref={secondPortionRef}>
             <div className="space-y-10">
               <div className="text-3xl font-semibold justify-center">
-                Experiences & Projects
+                Featured Work & Experiences
               </div>
               <div className="space-y-10">
                 <Projects />
@@ -144,11 +144,11 @@ const Landing = () => {
                     Still here? More about me:
                   </div>
                   <div className="mt-5 mb-2 sm:mb-1">
-                    I'm a student at <span className="font-bold text-red-500">Cornell University</span> passionate about crafting innovative software solutions. Inspired by my father's work in technology, I've developed a strong interest in <span className="font-bold text-[#75AAFB]">human computer interactions</span>, specifically in web development and presenting information in intuitive ways. I enjoy collaborating with teams and am eager to continually expand my skillset.
+                    I'm a junior at <span className="font-bold text-red-500">Cornell University</span> passionate about crafting <span className="font-bold">innovative software solutions</span>. Inspired by my father's work in technology, I've developed a strong interest in <span className="font-bold">human computer interactions</span>, specifically in web development and presenting information in intuitive ways. My academic and internship experiences focus on leveraging technology to solve real-world problems, from applying machine learning models to reduce nurse burnout to developing user-friendly web applications.
                   </div>
 
                   <div className="mt-5 mb-2 sm:mb-1">
-                    My goal is to leverage technology to address real-world challenges. I'm particularly drawn to individuals who share this vision of using design to create a positive impact. If you're passionate about solving problems through creative design, {" "}<a
+                    I enjoy collaborating with teams and am eager to continually expand my skillset. My goal is to create user-centered, impactful technology solutions that make information more accessible and intuitive. If you share this vision of using design and technology to create a positive impact,  {" "}<a
                       href="https://www.linkedin.com/in/chuyinweng/"
                       className="font-bold underline text-[#0277B5]"
                     >
