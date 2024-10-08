@@ -8,14 +8,15 @@
       "desription": "During a 36-hour hackathon, my team developed SmartPantry, a mobile application aimed at reducing food waste by helping users manage their groceries more efficiently. Built using Expo React Native and Appwrite, the app allows users to track their ingredients, receive expiration reminders, and get recipe suggestions based on what they have on hand. SmartPantry empowers users to minimize waste and make meal planning easier, aligning with our mission to address the global issue of food waste.",
       "link": "https://github.com/dorawengg/brh25/tree/main",
       "tools": [
-        "Expo React Native",
+        "Expo",
+        "React-Native",
         "Appwrite",
         "TypeScript"
       ]
     },
     {
       "name": "RAG System with Local LLM",
-      "time": "2024",
+      "time": "September 2024",
       "type": "Personal Project",
       "desription": "Built a Retrieval-Augmented Generation (RAG) system that allows users to upload and analyze unlimited documents using a locally hosted LLM (Llama3). The system enables efficient document retrieval and context-aware chatbot responses, leveraging FAISS for vector storage and LangChain for seamless integration.",
       "link": "https://github.com/dorawengg/RAG-LLM",

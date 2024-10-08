@@ -2,6 +2,8 @@
 import React from "react";
 import Navbar from "./components/Navbar";
 import me from "./img/meh.jpeg";
+import meh from "./img/meh.jpg";
+import mehh from "./img/mehh.jpeg";
 import Top from "./components/Top";
 import Projects from "./components/Projects";
 import Footer from './components/Footer'
@@ -19,10 +21,10 @@ const Landing = () => {
 
   const words = [
     {
-      text: "A",
+      text: "A"
     },
     {
-      text: "developer",
+      text: "Developer",
     },
     {
       text: "with",
@@ -40,13 +42,13 @@ const Landing = () => {
     {
       text: "building",
     },
-    {
-      text: "innovative",
-      className: "text-[#FFBE5C]",
-    },
-    {
-      text: "&",
-    },
+    // {
+    //   text: "innovative",
+    //   className: "text-[#FFBE5C]",
+    // },
+    // {
+    //   text: "&",
+    // },
     {
       text: "user-centered",
       className: "text-[#75AAFB]",
@@ -144,13 +146,14 @@ const Landing = () => {
                     Still here? More about me:
                   </div>
                   <div className="mt-5 mb-2 sm:mb-1">
-                    I'm a junior at <span className="font-bold text-red-500">Cornell University</span> passionate about crafting <span className="font-bold">innovative software solutions</span>. Inspired by my father's work in technology, I've developed a strong interest in <span className="font-bold">human computer interactions</span>, specifically in web development and presenting information in intuitive ways. My academic and internship experiences focus on leveraging technology to solve real-world problems, from applying machine learning models to reduce nurse burnout to developing user-friendly web applications.
+                    I'm a junior at <span className="font-bold text-red-500">Cornell University</span> passionate about crafting <span className="font-bold">innovative software solutions</span>. I have  a strong interest in <span className="font-bold">human computer interactions</span>, specifically in web development and information presentation.
+                    {/* My academic and internship experiences focus on leveraging technology to solve real-world problems, from applying machine learning models to reduce nurse burnout to developing user-friendly web applications. */}
                   </div>
 
                   <div className="mt-5 mb-2 sm:mb-1">
                     I enjoy collaborating with teams and am eager to continually expand my skillset. My goal is to create user-centered, impactful technology solutions that make information more accessible and intuitive. If you share this vision of using design and technology to create a positive impact,  {" "}<a
                       href="https://www.linkedin.com/in/chuyinweng/"
-                      className="font-bold underline text-[#0277B5]"
+                      className="font-bold underline text-[#7e9bc9]"
                     >
                       lets connect!
                     </a>
