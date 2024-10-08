@@ -16,7 +16,7 @@ const Project = ({ project, index }) => {
         }}
       >
         <div key={index} >
-          <div className="bg-[#ffffff] rounded-3xl p-10 flex flex-row justify-between space-x-5 shadow-lg  transition duration-300 hover:scale-[102%]">
+          <div className="bg-[#ffffff] rounded-3xl p-10 flex flex-row justify-between space-x-5 shadow-lg transition duration-300 hover:scale-[102%]">
             <div>
               <div className="mb-10">
                 <div className="flex flex-row">
@@ -24,15 +24,15 @@ const Project = ({ project, index }) => {
                     href={project.link} // Set the link destination
                     target="_blank" // Open the link in a new tab
                     rel="noopener noreferrer" // Security feature for opening new tabs
-                    className="text-2xl font-bold"
+                    className="text-2xl font-bold text-[#060026]"
                   >
                     {project.name}
                   </a>
                   <p>&#8599;</p>
                 </div>
-                <div>{project.time}</div>
+                <div className="text-[#060026]">{project.time}</div>
               </div>
-              <div>{project.desription}</div>
+              <div className="text-[#060026]">{project.desription}</div>
             </div>
 
             <div className="sm:hidden space-y-2 text-right">

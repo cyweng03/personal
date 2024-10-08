@@ -104,7 +104,7 @@ const Landing = () => {
                     repeatType: "loop"
                   }}
                 >
-                  <IconChevronDown size={70} color='#213547' />
+                  <IconChevronDown size={70} color='#f9f9f9' />
                 </motion.div>
               </div>
             </div>
@@ -124,12 +124,12 @@ const Landing = () => {
             <div className=" mt-5 mb-2">
               {" "}
               {/* GitHub Link Section */}
-              Want to see more? Check out my
+              Want to see more? Check out my {" "}
               <a
                 href="https://github.com/dorawengg"
                 className="font-bold underline"
               >
-                {" "}
+
                 GitHub!
               </a>
             </div>
@@ -153,7 +153,7 @@ const Landing = () => {
                   <div className="mt-5 mb-2 sm:mb-1">
                     I enjoy collaborating with teams and am eager to continually expand my skillset. My goal is to create user-centered, impactful technology solutions that make information more accessible and intuitive. If you share this vision of using design and technology to create a positive impact,  {" "}<a
                       href="https://www.linkedin.com/in/chuyinweng/"
-                      className="font-bold underline text-[#7e9bc9]"
+                      className="font-bold underline text-[#75AAFB]"
                     >
                       lets connect!
                     </a>
