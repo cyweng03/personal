@@ -72,7 +72,7 @@ const Landing = () => {
 
   return (
     <>
-      <Sidebar sections={sections} className="sm:hidden" />
+      <Sidebar sections={sections} className="sm:hidden md:hidden" />
       {/* <div>
         <Top />
       </div> */}

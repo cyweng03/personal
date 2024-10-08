@@ -36,7 +36,7 @@ const Sidebar = ({ sections }) => {
         </button>
       ))}
       <a
-        href="https://drive.google.com/file/d/17gId-lIVyNd5PXE77qyj3AXo2EgPqN22/view?usp=sharing"
+        href="https://drive.google.com/file/d/1rULEReRTnLeNE65GA8kfY6EP6P1ltxJp/view?usp=sharing"
         target="_blank"
         rel="noopener noreferrer"
         className="p-2 text-xl bg-transparent text-left ml-5 mt-auto"
