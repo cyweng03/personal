@@ -24,7 +24,7 @@ const Landing = () => {
       text: "A"
     },
     {
-      text: "Developer",
+      text: "developer",
     },
     {
       text: "with",
