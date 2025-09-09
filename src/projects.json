@@ -1,6 +1,21 @@
 {
   "Projects": [
     {
+      "name": "Data Validation System",
+      "logo": "",
+      "time": "May - August 2025",
+      "type": "SDE Intern, Amazon Web Services",
+      "desription": "As an SDE Intern at Amazon Web Services, I designed and deployed a scalable post-processing validation system to improve data quality in production pipelines serving over 1M customers. Leveraging AWS Glue, Athena, S3, and CloudWatch, the system automated validation for 15K+ daily records, enforcing schema rules, detecting nulls, and applying field-specific checks. These improvements reduced debugging time by over 20% through early error detection and cut data quality–related on-call tickets by 25%, enhancing reliability for three downstream teams.",
+      "link": "",
+      "tools": [
+        "AWS Glue",
+        "Athena",
+        "S3",
+        "CloudWatch",
+        "Python"
+      ]
+    },
+    {
       "name": "SmartPantry",
       "logo": "",
       "time": "October 2023",
