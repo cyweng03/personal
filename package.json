@@ -2,6 +2,7 @@
   "name": "personalweb",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://cyweng03.github.io/personal-website",
   "type": "module",
   "engines": {
     "node": "22.x"
@@ -12,6 +13,7 @@
     "deploy": "vercel --prod",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
+    "gitpredeploy": "npm run build",
     "gitdeploy": "gh-pages -d dist"
   },
   "dependencies": {
