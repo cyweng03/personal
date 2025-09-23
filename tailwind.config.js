@@ -4,22 +4,22 @@ export default {
   theme: {
     extend: {
       animation: {
-        first: "moveVertical 30s ease infinite",
-        second: "moveInCircle 20s reverse infinite",
-        third: "moveInCircle 40s linear infinite",
-        fourth: "moveHorizontal 40s ease infinite",
-        fifth: "moveInCircle 20s ease infinite",
+        first: "moveVertical 25s ease infinite",
+        second: "moveInCircle 15s reverse infinite",
+        third: "moveInCircle 25s linear infinite",
+        fourth: "moveInCircle 25s ease infinite",
+        fifth: "moveInCircle 15s ease infinite",
       },
       keyframes: {
         moveHorizontal: {
           "0%": {
-            transform: "translateX(-50%) translateY(-10%)",
+            transform: "translateX(-50%) translateY(20%)",
           },
           "50%": {
-            transform: "translateX(50%) translateY(10%)",
+            transform: "translateX(50%) translateY(20%)",
           },
           "100%": {
-            transform: "translateX(-50%) translateY(-10%)",
+            transform: "translateX(-50%) translateY(20%)",
           },
         },
         moveInCircle: {
@@ -35,13 +35,13 @@ export default {
         },
         moveVertical: {
           "0%": {
-            transform: "translateY(-50%)",
+            transform: "translateY(50%)",
           },
           "50%": {
             transform: "translateY(50%)",
           },
           "100%": {
-            transform: "translateY(-50%)",
+            transform: "translateY(100%)",
           },
         },
       },

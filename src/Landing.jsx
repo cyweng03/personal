@@ -1,11 +1,12 @@
 "use client";
 import React from "react";
 import Navbar from "./components/Navbar";
-import me from "./img/meh.jpeg";
+import me from "./img/me.jpg";
 import meh from "./img/meh.jpg";
 import mehh from "./img/mehh.jpeg";
 import Top from "./components/Top";
-import Projects from "./components/Projects";
+// import Projects from "./components/Projects";
+import Project from "./components/Project";
 import Footer from './components/Footer'
 import { TypewriterEffect } from "../src/ui/typewriter-effect";
 import { useRef } from "react";
@@ -118,7 +119,8 @@ const Landing = () => {
                 Featured Work & Experiences
               </div>
               <div className="space-y-10">
-                <Projects />
+                {/* <Projects /> */}
+                <Project />
               </div>
             </div>
             <div className=" mt-5 mb-2">
@@ -160,7 +162,7 @@ const Landing = () => {
                   </div>
                   <div className="mt-5 mb-2">
                     Outside of academics, I explore creative websites, experiment with coffee recipes, and craft monthly <a href="https://open.spotify.com/user/bz8bpaku8nlwtlnl2n4v3djh9?si=c8a0d409b5704a3b"
-                      className="font-bold underline text-[#1DB954]">Spotify</a> platlists.
+                      className="font-bold underline text-[#1DB954]">Spotify</a> playlists.
 
                   </div>
                   <div className="flex flex-row items-center space-x-8 ">
