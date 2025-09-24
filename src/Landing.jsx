@@ -87,7 +87,7 @@ const Landing = () => {
                   <div className="text-5xl font-semibold font-sans">
                     Hello, I'm <div className="text-7xl">Chu-Yin Weng</div>
                   </div>
-                  <div className="ml-5 font-semibold text-3xl"> aka Dora</div>
+                  <div className="ml-5 font-semibold text-3xl font-sans"> aka Dora</div>
                 </div>
                 <TypewriterEffect words={words} className="font-semibold text-2xl mb-5 relative text-left z-50 font-sans" />
                 <div className="font-semibold text-2xl font-sans">
