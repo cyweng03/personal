@@ -84,13 +84,13 @@ const Landing = () => {
               {/* <Navbar className="relative z-50" /> */}
               <div className="px-[10%] py-[10%] mt-[5%]">
                 <div className="flex flex-row items-end mb-[3%] relative z-50">
-                  <div className="text-5xl font-semibold ">
+                  <div className="text-5xl font-semibold font-sans">
                     Hello, I'm <div className="text-7xl">Chu-Yin Weng</div>
                   </div>
                   <div className="ml-5 font-semibold text-3xl"> aka Dora</div>
                 </div>
-                <TypewriterEffect words={words} className="font-semibold text-2xl mb-5 relative text-left z-50" />
-                <div className="font-semibold text-2xl">
+                <TypewriterEffect words={words} className="font-semibold text-2xl mb-5 relative text-left z-50 font-sans" />
+                <div className="font-semibold text-2xl font-sans">
                   Check out my projects below :)
                 </div>
 
@@ -148,7 +148,7 @@ const Landing = () => {
                     Still here? More about me:
                   </div>
                   <div className="mt-5 mb-2 sm:mb-1">
-                    I'm a junior at <span className="font-bold text-red-500">Cornell University</span> passionate about crafting <span className="font-bold">innovative software solutions</span>. I have  a strong interest in <span className="font-bold">human computer interactions</span>, specifically in web development and information presentation.
+                    I'm a senior at <span className="font-bold text-red-500">Cornell University</span> passionate about crafting <span className="font-bold">innovative software solutions</span>. I have  a strong interest in <span className="font-bold">human computer interactions</span>, specifically in web development and information presentation.
                     {/* My academic and internship experiences focus on leveraging technology to solve real-world problems, from applying machine learning models to reduce nurse burnout to developing user-friendly web applications. */}
                   </div>
 

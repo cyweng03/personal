@@ -3,6 +3,10 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
+      fontFamily: {
+        sans: ['Inter', 'sans-serif'],
+        mono: ['Space Mono', 'monospace'],
+      },
       animation: {
         first: "moveVertical 25s ease infinite",
         second: "moveInCircle 15s reverse infinite",
